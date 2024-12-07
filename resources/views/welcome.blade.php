@@ -16,7 +16,7 @@
                         <div class="card-body">
                             <h2 class="card-title h4 text-black fw-bold"><a class="text-decoration-none text-black" href="/article/{{$item->slug}}">{{$item->title}}</a></h2>
                             <span class="medium text-muted">By {{$item->author}} | {{date('d/m/Y', strtotime($item->created_at))}}</span><hr>
-                            <a class="text-decoration-none text-black crop" href="/article/{{$item->slug}}">
+                            <a class="text-decoration-none text-black" href="/article/{{$item->slug}}">
                                 <img class="img-fluid" src="{{ asset('storage/images/' . $item->image)}}" alt="{{$item->image}}">
                             </a>
                             <hr>
@@ -61,7 +61,7 @@
                                     <a class="text-decoration-none" href="/article/{{$item->slug}}">
                                         <img class="img-fluid" src="{{ asset('storage/images/' . $item->image)}}" alt="{{$item->image}}">
                                         <h5 class="text-white fw-bold mt-2">{{$item->title}}</h5>
-                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 120)!!}...</p>
+                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 90)!!}...</p>
                                     </a>
                                 </div>
                                 </div>
@@ -78,7 +78,7 @@
                                     <a class="text-decoration-none" href="/article/{{$item->slug}}">
                                         <img class="img-fluid" src="{{ asset('storage/images/' . $item->image)}}" alt="{{$item->image}}">
                                         <h5 class="text-white fw-bold mt-2">{{$item->title}}</h5>
-                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 120)!!}...</p>
+                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 90)!!}...</p>
                                     </a>
                                 </div>
                                 </div>
@@ -94,7 +94,7 @@
                                         <a class="text-decoration-none" href="/article/{{$item->slug}}">
                                             <img class="img-fluid" src="{{ asset('storage/images/' . $item->image)}}" alt="{{$item->image}}">
                                             <h5 class="text-white fw-bold mt-2">{{$item->title}}</h5>
-                                            <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 120)!!}...</p>
+                                            <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 90)!!}...</p>
                                         </a>
                                     </div>
                                 </div>
@@ -110,7 +110,7 @@
                                     <a class="text-decoration-none" href="/article/{{$item->slug}}">
                                         <img class="img-fluid" src="{{ asset('storage/images/' . $item->image)}}" alt="{{$item->image}}">
                                         <h5 class="text-white fw-bold mt-2">{{$item->title}}</h5>
-                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 120)!!}...</p>
+                                        <p class="text-decoration-none text-white mini">{!! substr($item->body, 0, 90)!!}...</p>
                                     </a>
                                 </div>
                                 </div>
