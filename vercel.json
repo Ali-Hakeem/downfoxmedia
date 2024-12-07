@@ -29,9 +29,9 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "5rr50.h.filess.io",
+        "DB_HOST": "y4kkx.h.filess.io",
         "DB_PORT": "3307",
-        "DB_DATABASE": "musikhuft_mouthevery",
-        "DB_USERNAME": "musikhuft_mouthevery"
+        "DB_DATABASE": "musikhuft_washpilot",
+        "DB_USERNAME": "musikhuft_washpilot"
     }
 }
